@@ -1,0 +1,9 @@
+name: hands_on_project
+version: 1.0.0
+profile: iko
+
+model-paths: ["models"]
+
+models:
+  hands_on_project:
+    +materialized: view
