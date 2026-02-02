@@ -10,3 +10,11 @@ sources:
               data_tests:
                 - unique
                 - not_null 
+      
+      - name: trans_product
+        columns:
+            - name: trans_product_id
+              description: primary key
+              data_tests:
+                - unique
+                - not_null 

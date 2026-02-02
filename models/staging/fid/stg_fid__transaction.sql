@@ -10,7 +10,7 @@ select
     customer_id,
     store_id,
     amount,
-    transaction_date
+    transaction_date,
+    created_at
 from
     source
-;
