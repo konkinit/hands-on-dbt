@@ -1,0 +1,12 @@
+sources:
+  - name: fid
+    database: defaultdb
+    schema: fid
+    tables:
+      - name: transaction
+        columns:
+            - name: transaction_id
+              description: primary key
+              data_tests:
+                - unique
+                - not_null 
